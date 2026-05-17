@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main()
+{ 
+int nu=5; 
+int na; 
+for(int i= 1; i <=10; i++){ 
+	na = nu * i; 
+	printf("5 × %d = %d\n",i, na);}
+return 0;
+}
+//forma legal se usar o print
