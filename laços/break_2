@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main() 
+{ 
+int nu; 
+while (1) {
+	printf("Digite um número (negativo  para sair): "); 
+	scanf("%d", &nu); 
+        if (nu < 0) {
+            break;
+        }
+        printf("Você digitou: %d\n", nu);
+    }
+    printf("Número negativo digitado, fim do laço: %d\n", nu); 
+return 0;
+}
