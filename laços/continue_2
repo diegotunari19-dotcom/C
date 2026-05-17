@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main() 
+{ 
+int num; 
+for (int i = 1; i <= 5; i++){
+        printf("Digite o %dº número: ", i); 
+        scanf("%d", &num); 
+	if (num < 0) {
+            continue;}
+        printf("Número positivo: %d\n", num);}
+    return 0;
+}
