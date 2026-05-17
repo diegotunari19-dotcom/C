@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main() 
+{
+for(int i = 1; i <= 20; i++){ 
+	if(i % 3 !=0){
+		continue;} 
+	printf ("%d\n", i);}
+return 0;
+}
+//! uso pra dizer se o valor for diferente 
+// i % 3 !=0 serve pra dizer se o resto da divisao 
+//-for diferente de 0 a codigo pula com o continue
