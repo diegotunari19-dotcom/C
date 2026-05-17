@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main()
+{
+int valor;
+printf("DIGITE UM NUMERO: ");
+scanf("%d", &valor); 
+if (valor >=0){
+	printf("VALOR POSITIVO");}
+else { 
+	printf("VALOR NEGATIVO\n");} 
+return 0;
+}
