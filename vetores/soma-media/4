@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+	int nu [8];
+	int soma=0;
+	printf("INFORME 8 NÚMEROS :\n");
+	for (int i = 0; i <8; i++){
+		scanf("%d", & nu[i]);}
+	for (int i = 0; i<8; i++){
+		soma = soma + nu[i];
+		printf("NÚMERO DE POSIÇÃO %d: %d\n", i, nu[i]);}
+		printf("SOMA DOS NÚMEROS: %d\n", soma);
+}
