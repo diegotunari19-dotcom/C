@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+	int nu [5];
+	printf("INFORME 5 NÚMEROS :\n");
+	for (int i = 0; i <5; i++){
+		scanf("%d", & nu[i]);}
+		
+	for (int i = 4; i>=0; i--){
+		printf("NÚMERO DE POSIÇÃO %d: %d\n", i, nu[i]);}
+}
