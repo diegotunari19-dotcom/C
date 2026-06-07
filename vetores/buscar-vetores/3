@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main(){
+	
+int nu[15];
+int pu;
+int va=0;
+
+printf("INFORME 15 NÚMEROS PARA A LISTA:\n");
+
+for (int i =0; i <15; i++){
+	scanf("%d", & nu[i]);}
+	
+printf("INFORME UM VALOR PARA PROCURAR NA LISTA:\n");
+scanf("%d", & pu);
+
+for (int i=0; i<15; i++){
+	if (pu==nu[i]){
+		va =1;
+		break;}}
+
+if (va==1){
+	for(int i=0; i<15; i++){
+		if (pu==nu[i]){		
+		printf("O NÚMERO %d ESTÁ NA LISTA NA POSIÇÃO: %d\n" , pu, i);}}}
+else{
+	printf("O NÚMERO NÃO ESTÁ NA LISTA!");}
+	
+return 0;}
