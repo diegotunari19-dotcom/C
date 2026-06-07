@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+	int nu [15];
+	float media=0;
+	int soma=0;
+	int ma=0;
+	printf("INFORME 15 NÚMEROS :\n");
+	for (int i = 0; i <15; i++){
+		scanf("%d", & nu[i]);
+		media++;}
+	for (int i = 0; i<15; i++){
+		soma = soma + nu[i];}
+		media= soma/media;
+		printf("MEDIA DOS NÚMEROS: %.1f\n", media);
+		printf("SOMA DOS NÚMEROS: %d\n", soma);
+		for (int i =0; i<15; i++){
+			if (nu[i] > media){
+				ma++;
+				printf("NÚMERO INFORMADO MAIOR QUE A MÉDIA: %d\n", nu[i]);}}				printf("QUANTIDADE DE NÚMEROS MAIORES QUE A MÉDIA: %d\n", ma);
+
+	}
