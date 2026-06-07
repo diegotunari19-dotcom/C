@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+int nu [10];
+int ma=0;
+printf("INFORME 10 NÚMEROS :\n");
+for (int i = 0; i <10; i++){
+	scanf("%d", & nu[i]);}
+for (int i = 0; i <10; i++){
+	 	if (nu[i] > ma){
+	 		ma=nu[i];}}
+printf("MAIOR NÚMERO: %d\n", ma);
+}
