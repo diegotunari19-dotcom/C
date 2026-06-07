@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main()
+{
+int nu[10];
+printf("INFORME 10 NÚMEROS:\n");
+for (int i = 0; i < 10; i++) {
+	scanf("%d", &nu[i]);}
+int ma = nu[0];
+int mi = nu[0];
+int posMa = 0;
+int posMi = 0;
+for (int i = 1; i < 3; i++) {
+	if (nu[i] > ma) {
+		ma = nu[i];
+		posMa = i;}
+     if (nu[i] < mi) {
+         mi = nu[i];
+         posMi = i;}}
+printf("MAIOR NÚMERO: %d\n", ma);
+printf("POSIÇÃO: %d\n", posMa);
+printf("MENOR NÚMERO: %d\n", mi);
+printf("POSIÇÃO: %d\n", posMi);
+return 0;}
