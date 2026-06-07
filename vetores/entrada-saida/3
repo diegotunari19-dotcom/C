@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+	int nu [20];
+	int re = 0;
+	printf("INFORME 20 NÚMEROS :\n");
+	for (int i = 0; i <20; i++){
+		re++;
+		scanf("%d", & nu[i]);}
+		
+	for (int i = 0; i<20; i++){
+		printf("NÚMERO DE POSIÇÃO %d: %d\n", i, nu[i]);}
+	printf("QUANTODADE DE NÚMEROS : %d\n", re);
+}
