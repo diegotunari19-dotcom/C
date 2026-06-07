@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+	int nu [10];
+	float media=0;
+	int soma=0;
+	printf("INFORME 10 NÚMEROS :\n");
+	for (int i = 0; i <10; i++){
+		scanf("%d", & nu[i]);
+		media++;}
+	for (int i = 0; i<10; i++){
+		soma = soma + nu[i];
+		printf("NÚMERO DE POSIÇÃO %d: %d\n", i, nu[i]);}
+		media= soma/media;
+		printf("MEDIA DOS NÚMEROS: %2.f\n", media);
+}
