@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main(){
+	
+int nu[10];
+int po = 0;
+int ne = 0;
+int ze = 0;
+printf("INFORME 10 NÚMEROS:\n");
+
+for (int i = 0; i < 10; i++){
+	scanf("%d", & nu[i]);}
+	
+for (int i = 0; i < 10; i++){
+	if(nu[i] > 0){
+		po++;}
+	else if(nu[i] == 0){
+		ze++;}
+	else if(nu[i] < 0){
+		ne++;}}
+
+printf("DOS NÚMEROS ÍNFORMADOS %d SÃO POSITIVOS\n", po);
+printf("DOS NÚMEROS ÍNFORMADOS %d SÃO ZERO\n", ze);
+printf("DOS NÚMEROS ÍNFORMADOS %d SÃO NEGATIVOS\n", ne);
+return 0;	
