@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main() {
+int num[30];
+int moda, maiorContagem = 0;
+
+printf("Informe 30 numeros:\n");
+
+for (int i = 0; i < 30; i++) {
+	scanf("%d", &num[i]);}
+
+for (int i = 0; i < 30; i++) {
+	int contagem = 0;
+	
+    for (int j = 0; j < 30; j++) {
+		if (num[i] == num[j]) {
+			contagem++;}}
+			
+	if (contagem > maiorContagem) {
+		maiorContagem = contagem;
+		moda = num[i];}}
+
+printf("Numero que mais aparece: %d\n",moda);
+printf("Quantidade de vezes: %d\n", maiorContagem);
+return 0;}
