@@ -1,0 +1,18 @@
+#include<stdio.h>
+
+int fatorar(int x);
+
+int main(){
+	int x;
+	printf("ÍNFORME UM NÚMERO: ");
+	scanf("%d", &x);
+	printf("O FATORIAL DO VALOR: %d", fatorar(x));
+	return 0;
+}
+
+int fatorar(int x){	
+	int resultado = 1;
+	for (x; x != 1; x--){
+		resultado = resultado * x;}
+	return resultado;
+}
