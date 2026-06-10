@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int dobro(int x){
+	return 2 * x;
+}
+
+int main()
+{
+	int n;
+	printf("INFORME UM VALOR: ");
+	scanf("%d", &n);
+	printf("O DOBRO DO VALOR INFORMADO: %d", dobro(n));
+	
+	return 0;
+	
+}
