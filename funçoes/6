@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+float media(float x , float y , float z){ 
+	return (x + y + z)/3;
+}
+
+int main(){
+	float n, s, m;
+	printf("INFORME 3 VALORES: ");
+	scanf("%f %f %f", &n, &s, &m);
+	printf("A MÉDIA DOS VALORES INFORMADOS: %.1f", media(n,s,m));
+	
+	return 0;
+}
