@@ -1,0 +1,18 @@
+#include<stdio.h>
+
+int maior(int x , int y){
+	if (x>y){
+		return x;}
+	else{
+		return y;}	
+}
+
+int main()
+{
+	int n, m;
+	printf("INFORME 2 VALORES: ");
+	scanf("%d %d", &n, &m);
+	printf("O MAIOR VALOR INFORMADO: %d", maior(n,m));
+	
+	return 0;
+}
