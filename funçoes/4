@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+int quadradro(int x){
+	return x*x;
+}
+
+int main()
+{
+	int n;
+	printf("INFORME UM VALOR: ");
+	scanf("%d", &n);
+	printf("O QUADRADO DO VALOR INFORMADO: %d", quadradro(n));
+	
+	return 0;
+}
