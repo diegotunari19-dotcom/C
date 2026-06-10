@@ -1,0 +1,13 @@
+#include<stdio.h>
+
+void linha (){
+	printf("--------------");
+}
+	
+int main(){
+	linha();
+	linha();
+	linha();
+
+	return 0;	
+}
